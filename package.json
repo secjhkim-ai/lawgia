@@ -5,15 +5,19 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "build": "echo \"No build step\"",
     "test": "echo \"No tests\" && exit 0"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "LawGIA 백엔드 서버",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "express": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
